@@ -1,0 +1,21 @@
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --Azul-Escuro-Body: #02011D;
+    
+    font-family: 'Gabarito', cursive;
+    color: white;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(6,6,61,1) 23%, rgba(36,117,133,1)) 97%;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
