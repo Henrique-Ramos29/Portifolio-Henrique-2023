@@ -4,7 +4,7 @@ import './index.css';
 const BotaoPrincipal = ({ children }) => {
     return(
         <>
-        <motion.button className='Botao' >{children}</motion.button>
+        <motion.button animate={{ scale: 1.0 }} className='Botao' >{children}</motion.button>
         </>
     )
 }
