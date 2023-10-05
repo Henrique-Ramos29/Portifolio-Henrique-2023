@@ -1,0 +1,17 @@
+.div_formacao {
+   margin-top: 35px;
+}
+
+.titulo_formacao {
+   font-size: 25px;
+}
+
+.imagem_formacao {
+   margin-top: 25px;
+   border-radius: 15px;
+}
+
+.subtitulo_formacao {
+    font-size: 13px;
+    margin-top: 5px;
+}
