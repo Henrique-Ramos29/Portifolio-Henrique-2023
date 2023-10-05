@@ -1,0 +1,21 @@
+.Imagem_Henrique {
+    border-radius: 360px;
+}
+
+.Titulo {
+    margin-top: 20px;
+}
+
+.Subtitulo {
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.Div_Botao {
+   margin-top: 30px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}

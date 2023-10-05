@@ -1,6 +1,7 @@
 import './App.css'
 import Formacao from './components/Formacao';
 import Menu from './components/Menu'
+import Rodape from './components/Rodape';
 import Sobre from './components/Sobre'
 import { BrowserRouter } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ function App() {
         <Menu /> 
         <Sobre />   
         <Formacao />
+        <Rodape />
     </BrowserRouter>
   )
 }

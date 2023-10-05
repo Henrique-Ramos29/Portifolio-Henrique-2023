@@ -1,15 +1,10 @@
-import styled from 'styled-components';
-
-const Botao = styled.button`
-   width: 115px;
-   height: 30px;
-   border-radius: 10px;
-`;
+import { motion } from 'framer-motion';
+import './index.css';
 
 const BotaoPrincipal = ({ children }) => {
     return(
         <>
-        <Botao>{children}</Botao>
+        <motion.button className='Botao' >{children}</motion.button>
         </>
     )
 }

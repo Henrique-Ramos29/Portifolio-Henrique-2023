@@ -1,37 +1,20 @@
-import styled from 'styled-components';
+import './index.css'
 import Foto from '../../../public/imagem/foto.jpeg';
 import BotaoPrincipal from '../BotaoPrincipal';
 import {motion} from 'framer-motion';
 
 
-const Logo = styled.h1`
-    font-size: 20px;
-`;
-
-const Imagem = styled.img`
-  border-radius: 360px;
-`;
-
-const DivBotao = styled.div`
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   gap: 15px;
-   margin-top: 10px;
-
-`;
-
 const Menu = () => {
     return(
         <>
         <motion.div animate={{ y: 100 }}>
-            <Imagem src={Foto} width={180} height={180}/>
-          <Logo>Olá meu nome é Henrique Ramos</Logo>
-          <Logo>Developer Front-End</Logo>
-        <DivBotao>
+            <motion.img className="Imagem_Henrique" src={Foto} width={200} height={200} />
+          <motion.h1 className='Titulo' >Olá meu nome é Henrique Ramos</motion.h1>
+          <motion.h2 className='Subtitulo' >Developer Front-End</motion.h2>
+        <motion.div className='Div_Botao' >
             <BotaoPrincipal>Curriculo</BotaoPrincipal>
             <BotaoPrincipal>Contato</BotaoPrincipal>
-        </DivBotao>
+        </motion.div>
         </motion.div>
         </>
 

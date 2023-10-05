@@ -1,0 +1,16 @@
+.Botao {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 180px;
+   height: 40px;
+   border-radius: 9px;
+   border-color: var(--Azul-Claro);
+   font-size: 17px;
+
+}
+
+.Botao:hover {
+    background: var(--Azul-Claro);
+    color: var(--Azul-Escuro);
+
+}
