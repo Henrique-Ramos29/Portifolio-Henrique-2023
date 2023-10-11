@@ -3,7 +3,7 @@ import './index.css'
 
 const Sobre = () => {
     return(
-         <motion.div animate={{y: 100}} className='Div_Sobre'>
+         <motion.div animate={{ y: 100 }} className='Div_Sobre'>
           <motion.h1 className='Titulo_Sobre'>Sobre</motion.h1>
                 <motion.p className='Texto_Sobre'> 
                 Como uma pessoa criativa que está sempre olhando para o futuro, tento criar projetos que 

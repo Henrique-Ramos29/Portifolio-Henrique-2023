@@ -4,7 +4,16 @@ import './index.css';
 const BotaoPrincipal = ({ children }) => {
     return(
         <>
-        <motion.button animate={{ scale: 1.0 }} className='Botao' >{children}</motion.button>
+            <motion.button 
+                    whileHover={{ 
+                    scale: 1.1,
+                    boxShadow: "0px 0px 8px rgb(255,255,255)",
+                    textShadow: "0px 0px 8px rgb(255,255,255)",
+                    }} 
+                    className='Botao'
+            >
+                    {children}
+             </motion.button>
         </>
     )
 }
