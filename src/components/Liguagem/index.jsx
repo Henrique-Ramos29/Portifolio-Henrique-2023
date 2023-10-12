@@ -38,8 +38,8 @@ export default function Liguagem() {
                             key={post} 
                             animate={{ y: 0 }}
                             >
-                            <motion.img className='imagem' src={post.img} alt="Foto Liguagem" width={235} height={270} />
-                            <motion.h2 className='title'>{post.title}</motion.h2>
+                            <motion.img className='imagem' src={post.img} alt="Foto Liguagem" width={170} height={220} />
+                            <motion.h3 className='title'>{post.title}</motion.h3>
                         </motion.div>
                     ))}   
 
