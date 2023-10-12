@@ -1,0 +1,27 @@
+[
+    {
+      "id": 5,
+      "title": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "img": "https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png"
+    },
+    {
+      "id": 3,
+      "title": "Html",
+      "img": "https://media.brainly.com.br/image/rs:fill/w:750/q:75/plain/https://pt-static.z-dn.net/files/d4d/13341099a27d9d864145f9a54803eb82.png"
+    },
+    {
+      "id": 2,
+      "title": "Css3",
+      "img": "https://velog.velcdn.com/images/tjrans9248/post/7ef21f3e-3f9a-4af3-a7bc-497a26b52b64/image.png"
+    },
+    {
+      "id": 1,
+      "title": "MySql",
+      "img": "https://pelayananpublik.id/wp-content/uploads/2022/03/Screenshot_20220314-2300112.png"
+    }
+]

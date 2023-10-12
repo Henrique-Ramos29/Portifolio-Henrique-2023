@@ -9,11 +9,11 @@
     --Azul-Claro: #80EBE8;
     --Azul-Escuro: #110DA7;
     
-    font-family: 'Gabarito', cursive;
     color: white;
   }
 
   body {
+    font-family: 'Gabarito', cursive;
     margin: 0;
     background: linear-gradient(rgba(2,0,36,1) 0%, rgba(6,6,61,1) 23%, rgba(36,117,133,1)) 90%;
     place-items: center;

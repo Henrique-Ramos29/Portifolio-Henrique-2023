@@ -6,7 +6,7 @@ const BotaoPrincipal = ({ children }) => {
         <>
             <motion.button 
                     whileHover={{ 
-                    scale: 1.1,
+                    scale: 1.3,
                     boxShadow: "0px 0px 8px rgb(255,255,255)",
                     textShadow: "0px 0px 8px rgb(255,255,255)",
                     }} 
